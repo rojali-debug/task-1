@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Flashcard Quiz App</title>
+    <link rell = "stylesheet" href = "style.css">
 </head>
 <body>
-    
+    <div class = "container">
+        <h1>Flashhcard Quiz App</h1>
+        <div class = "flashcard">
+            <p id = " cardText"></p>
+        </div>
+        <buttton onclick = "showAnswewr()">show ANswewr</buttton>
+        <div class = " nav-button">
+            <button onclick = "prevCARD()">Previous</button>
+            <button onclick = "nextCARD()">Next</button>
+        </div>
+        <div class = "manage-buttons"> <button onclick = " addCard() "> Add </button>
+         <button onclick = " editCard() "> Edit </button>
+         <button onclick = " DeleteCard() "> Delete</button>
+         
+        </div>
+    </div>
+    <script src = "script.js"></script>
 </body>
 </html>
